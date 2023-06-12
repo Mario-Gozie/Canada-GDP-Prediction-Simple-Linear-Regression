@@ -24,6 +24,8 @@ in this data set, the year is the independent variable while per capita income i
 There are two was to do this.
 
 1) use of a sccattered plot
+
+
 ![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/The_Scattered_Plot.png)
 
 
