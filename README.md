@@ -48,7 +48,7 @@ in otherwords, as the year increses, Per capita income increases.
 
 The mean year and that of per capita income was done using the average function in excel 
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/Means.png)
 
 
 ### CALCULATING FOR SLOPE
@@ -58,16 +58,16 @@ The slope is given by the product of (X-Xmean)(Y-Ymean)/(X-Xmean)^2
 
 1) calculating for (X-Xmean),(Y-Ymean) and (X-Xmean)^2
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/calc_X-Xmean_for_slope.png)
 
 2) Applying the above formula (X-Xmean)(Y-Ymean)/(X-Xmean)^2 to get the slope
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/calc_slope.png)
 
 _Alternatively the slope can be calculated using the Slope function in Exel which takes the range of the Y variable and that of the X varible and gives you the output._
 
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/calc_slope_function.png)
 
 
 ### CALCULATING INTERCEPT
