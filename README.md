@@ -24,7 +24,7 @@ in this data set, the year is the independent variable while per capita income i
 There are two was to do this.
 
 1) use of a sccattered plot
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/The_Scattered_Plot.png)
 
 
 From this scattered plot, there is a positive correlation between year and per capita income
@@ -32,7 +32,7 @@ From this scattered plot, there is a positive correlation between year and per c
 2) calculating the pearson correlation coefficient using the CORREL() function in excel
 
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/Peason_Corretion.png)
 
 
 when a correlation coefficient is close +1 or -1 we say there is a strong correlation between variables where when it has a negetive sign, it shows negative correlation and when positive it shows possitive correlation.
