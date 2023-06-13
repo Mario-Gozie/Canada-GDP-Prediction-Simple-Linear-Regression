@@ -1,4 +1,7 @@
 ## INTRODUCTION 
+![Alt Text](https://github.com/Mario-Gozie/SQL-Task/blob/main/Images/intro.png)
+
+
 
 ## TOOL  USED 
 
