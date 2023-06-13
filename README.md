@@ -76,12 +76,12 @@ Having gotten the the slopes and mean(X) and Mean(Y) I had to calculate for the 
 
 in making the intercept the subject of the equation, I got `b0 = Ymean - Xmean*b1`
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/Calc_slop_with_Equation.png)
 
 
 Alternatively, there is an intercept function that can calculate the intercept of the two variables which needs the the the dependent(Y) and independent(X) variable
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/calc_slope_funtion.png)
 
 ### CALCULATING FOR R^2
 
@@ -93,16 +93,16 @@ Another way to see this is that it is the ratio of sum of squares of Regression 
 
 1) calculating for (Ypredicted-Ymean)^2  and (Y-Ymean)^2
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/Y-Ymean_and_Ypred%20-%20Ymean_calc.png)
 
 2) calculating for R^2
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/R%5E2_calc.png)
 
 Interestingly, R^2 is the same as squaring the pearson correlation coefficient. which also mean that the square root of R^2 will give you the pearson correlation.
 
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/R%5E2_from_correlation.png)
 
 ## REGRESSION WITH EXCEL DATA ANALYSIS TOOL PACK
 
@@ -110,9 +110,10 @@ Earlier I said that this project will be done manually and with the data anlysis
 lets me now use the excel data analytics tool pack plug in wjhich makes these calculations easy and quick.
 
 To use Analysis tool for Regression, you can see the data analytics tools on the right of the data section in the excel ribbon and choose Regression.
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/Screenshot%20(380).png)
 
-
-![Alt Text]()
+### OUTCOME
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/Analysis_tool_outcome.png)
 
 The result from using the analytics tool has 3 main sections.
 
@@ -124,7 +125,7 @@ I will focus on the most important values
 
 ### The Regression Statistics Pane
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/Regression-statistics-pane.png)
 
 * here we have the Multiple R which is the same as the Peason correlataion coefficient.
 its value is 0.943883954 and that corresponds with the pearson correlation coefficient I calculated earlier manually. once again, this shows a strong relationship between X variable and Y variable.
@@ -137,7 +138,7 @@ its value is 0.890916918 and it corresponds with the R^2 I calculated earlier.
 ### The Anova Pane
 
 
-![Alt Text]()
+![Alt Text](https://github.com/Mario-Gozie/Canada-GDP-Prediction-Simple-Linear-Regression/blob/main/images/Anova_pane.png)
 
 Looking at the sum of squares column, we have the sum of squares for Regression, sum of squares for the Residual and sum of squares for Total.
 Remember that R^2 is sum of squares of the Regression divided by sum of squres for Total.  if we compute this, we will have our corresponding R^2
@@ -146,11 +147,11 @@ Remember that R^2 is sum of squares of the Regression divided by sum of squres f
 
 ![Alt Text]()
 
-Here we have intercept which is the value of the dependent variable when the independent variable is 0 which is -1632210.758
+* Here we have intercept which is the value of the dependent variable when the independent variable is 0 which is -1632210.758
 
-There is the slope for the relationship which is 828.4650752
+* There is the slope for the relationship which is 828.4650752
 
-we also have a Pvalue which is 2.79524E-23
+* we also have a Pvalue which is 2.79524E-23
 
 
 NB in Linear Regression Analysis, we are doing hypothesis testing. where the **Null Hypothesis** is that there is no relationship between the two variables and the **Alternate Hypothesis** is that there is a relationship. if Pvalue is less or equal than the significant value which is usually 0.05
@@ -158,10 +159,8 @@ we Reject the Null Hyposthesis** if its greater than the significant value, we *
 
 SUMMARY AND INSIGHT
 
-So far after my analysis, I found the intercept correlation coefficient of the relationship between Year and per capita income to be 0.943883954 (Multiple R) and I can say thath the two variables are strongly correlated because the correlation coefficient is very close to 1.
-I calculated the intercept and slope which are -1632210.758 and 828.4650752 respectively. With these two values, I developed a Regression equation for Prediction which is **Y = -1632210.758 + 828.4650752*X**. But how good will this equation be for prediction? well, to know how good, I calculated for the coefficient of determination(R^2) which gave me a value of 0.890916918.
-if the value of R^2 is converted to percentage, we will have 89.09%. This simply means that the model can account for 89.09%  of the values for the Y variable while other factors can account for the variations. That I must say is a good fit because its very close to 100% so I would say I have a good model. 
+* So far after my analysis, I found the correlation coefficient of the relationship between Year and per capita income to be **0.943883954** (Multiple R). Because this value is close to positive 1, ther is a strong positive correlation between the two variables.
 
- 
+* I calculated the intercept and slope which are **-1632210.758** and **828.4650752** respectively. With these two values, I developed a Regression equation for Prediction which is **Y = -1632210.758 + 828.4650752*X**. 
 
-
+* But how good will this equation be for prediction? well, to know how good, I calculated for the coefficient of determination(R^2) which gave me a value of **0.890916918**. if the value of R^2 is converted to percentage, we will have 89.09%. what could that mean? well, it simply means that the model can account for 89.09%  of the values for the Y variable while other factors can account for percentage of variations. Since the R^2 value I got is close to 100% (Perfect Model/fit), I can strongly say I have a good model for predicting Canada's GDP.
